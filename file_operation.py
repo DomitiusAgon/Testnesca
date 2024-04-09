@@ -1,14 +1,6 @@
 # Functions for file saving and loading
 def save_notes(text):
-  """
-  Сохраняет текст из textedit в файл data_notes.txt.
-
-  Args:
-      text (str): Текст из textedit.
-
-  Returns:
-      bool: True, если сохранение прошло успешно, False - otherwise.
-  """
+#Сохраняет текст из textedit в файл data_notes.txt.
   try:
     with open("data_notes.txt", "w") as f:
       f.write(text)
